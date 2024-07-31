@@ -11,7 +11,7 @@ We investigate machine communication. We understand communication as the transmi
 1. Machine-to-Human communication: How machines learn to communicate with humans, as in the study of **natural language processing** and **large language models**.
 2. Machine-to-machine communication: How machines learn to communicate with other machines, as studied under the heading of **emergent communication** or **knowledge distillation**.
 3. Message-passing neural networks, where the structure of communication is given by the data and models such as **graph neural networks** learn to effectively transmit information from one data point to the other. 
-4. Within-machine communication: How information flows within a neural network model (i.e., **neural communication** and **representation learning**)  
+4. Neural communication: How information flows within a neural network model (akin to **representation learning**).
 
 ![Machine Communication Overview](/assets/images/MachComm-overview.png)
 
@@ -23,7 +23,7 @@ Specifically, our (current) focus areas are:
 
 1. The causal effects of internal communication on external communication, similar to the young research field of **mechanistic interpretability**.
 2. Continual adaptation in the non-stationary environments of communication, as in **lifelong machine learning**
-3. Machine communication for Data Science, applying developed methods to gain insights from data, such as corpora of interlinked scholarly documents or social media postings.
+3. Machine communication for **data science**, applying developed methods to gain insights from data, such as corpora of interlinked scholarly documents or social media postings.
 
 
 ## Selected Publications
