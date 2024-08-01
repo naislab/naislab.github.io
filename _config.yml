@@ -16,10 +16,11 @@
 
 remote_theme: lgalke/swiss
 
-title: Mach. Comm. Lab.
-description: Data Science and Advanced Machine Learning at the University of Southern Denmark in Odense.
+title: "Mach. Comm. Lab."
+description: "Data Science and Advanced Machine Learning at the University of Southern Denmark in Odense."
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://machcomm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: ""# the GitHub repo name for your project
 github_username: MachComm
 
@@ -35,6 +36,13 @@ theme_color: black
 # Build settings
 markdown: kramdown
 
+# Metadata for jekyll seo tag
+tagline: "Large language models, graph neural networks, and more." # Used by seo tag
+author:
+  name: "Lukas Galke"
+  url: "https://lgalke.github.io"
+  twitter: "LukasGalke"
 
-collections:
-  - teaching
+# Plugins
+plugins:
+  - jekyll-seo-tag
