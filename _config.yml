@@ -16,12 +16,12 @@
 
 remote_theme: lgalke/swiss
 
-title: "Mach. Comm. Lab."
+title: "Mach. Comm. Lab"
 description: "Data Science and Advanced Machine Learning at the University of Southern Denmark in Odense."
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://machcomm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: ""# the GitHub repo name for your project
+github_repo: "" # the GitHub repo name for your project
 github_username: MachComm
 
 # Optional social link, you can choose from the following options:
