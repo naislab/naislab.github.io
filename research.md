@@ -15,7 +15,10 @@ We investigate machine communication. We understand communication as the transmi
 
 ![Machine Communication Overview](/assets/images/MachComm-overview.png)
 
-By viewing those broad fields (Natural Language Processing, Multi-Agent Systems, Learning from Graphs, Representation Learning) through the lens of machine communication, we can discover valuable new links. Specifically, our (current) focus areas are:
+
+## Current Focus Areas
+
+By viewing those broad adjacent fields (Natural Language Processing, Multi-Agent Systems, Learning from Graphs, Representation Learning) through the lens of machine communication, we can discover valuable new links. Specifically, our (current) focus areas are:
 
 1. The causal effects of internal communication on external communication, similar to the young research field of **mechanistic interpretability**.
 2. Continual adaptation in the non-stationary environment of communication, using techniques of **lifelong machine learning**
