@@ -8,18 +8,14 @@ permalink: /research/
 
 We investigate machine communication. We understand communication as the transmission of information which can be found in various areas of **machine learning** and **natural language processing**:
 
-1. Machine-to-Human communication: How machines learn to communicate with humans, as in the study of **natural language processing** and **large language models**.
-2. Machine-to-machine communication: How machines learn to communicate with other machines, as studied under the heading of **emergent communication** or **knowledge distillation**.
+1. Machine-to-human communication: How machines learn to communicate with humans, as in **natural language processing** and **language modeling**.
+2. Machine-to-machine communication: How machines learn to communicate with other machines. This includes settings like **emergent communication**, where machines need to learn to communicate by themselves, but also **knowledge distillation**, where the communication happens between teacher and student model.
 3. Message-passing neural networks, where the structure of communication is given by the data and models such as **graph neural networks** learn to effectively transmit information from one data point to the other. 
 4. Neural communication: How information flows within a neural network model (akin to **representation learning**).
 
 ![Machine Communication Overview](/assets/images/MachComm-overview.png)
 
-
-## Focus Areas 
-
-Through the lens of machine communication, we can discover new connections between these research areas.
-Specifically, our (current) focus areas are:
+Viewing parts of these broad adjacent fields through the lens of machine communication, we can discover valuable new connections. Specifically, our (current) focus areas are:
 
 1. The causal effects of internal communication on external communication, similar to the young research field of **mechanistic interpretability**.
 2. Continual adaptation in the non-stationary environments of communication, as in **lifelong machine learning**
