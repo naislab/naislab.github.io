@@ -17,7 +17,10 @@
 remote_theme: lgalke/swiss
 
 title: "Mach. Comm. Lab"
-description: "Data Science and Advanced Machine Learning at the University of Southern Denmark in Odense."
+description: >
+  The Machine Communication Lab.
+  Data Science and Advanced Machine Learning at the University of Southern Denmark in Odense.
+  Large language models, graph neural networks, and more.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://machcomm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
