@@ -18,9 +18,11 @@ remote_theme: lgalke/swiss
 
 title: "Mach. Comm. Lab"
 description: >
-  The Machine Communication Lab.
-  Data Science and Advanced Machine Learning at the University of Southern Denmark in Odense.
-  Large language models, graph neural networks, and more.
+  The Machine Communication Lab at the University of Southern Denmark in Odense
+  investigates various aspects of <strong>Data Science and Advanced Machine Learning</strong> related to
+  the theme of machine communication. Our focus areas include
+  interpretability and continual adaptation of language models
+  as well as machines communicating via discrete or continuous messages.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://machcomm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -49,3 +51,9 @@ author:
 # Plugins
 plugins:
   - jekyll-seo-tag
+
+
+# Collections
+
+collections:
+  - people
