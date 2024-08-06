@@ -1,5 +1,7 @@
 ---
+layout: page
 title: People
+permalink: /people/
 ---
 
 {% for member in site.people %}

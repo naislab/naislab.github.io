@@ -16,13 +16,10 @@
 
 remote_theme: lgalke/swiss
 
-title: "Mach. Comm. Lab"
+# title: "Mach. Learn. Commun. Lab."
+title: "Mach. Comm. Lab."
 description: >
-  The Machine Communication Lab at the University of Southern Denmark in Odense
-  investigates various aspects of <strong>Data Science and Advanced Machine Learning</strong> related to
-  the theme of machine communication. Our focus areas include
-  interpretability and continual adaptation of language models
-  as well as machines communicating via discrete or continuous messages.
+  Decoding the Language of Machines.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://machcomm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -42,7 +39,7 @@ theme_color: black
 markdown: kramdown
 
 # Metadata for jekyll seo tag
-tagline: "Large language models, graph neural networks, and more." # Used by seo tag
+tagline: "Decoding the Language of Machines" # Used by seo tag
 author:
   name: "Lukas Galke"
   url: "https://lgalke.github.io"

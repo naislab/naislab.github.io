@@ -4,21 +4,27 @@ title: Research
 permalink: /research/
 ---
 
-## The Machine Communication Perspective
+**The Machine Communication Lab** at the University of Southern Denmark in Odense
+  investigates selected topics in **Data Science** and **Advanced Machine Learning**
+  with a focus on machine communication. Our research covers three main areas:
 
-We investigate machine communication. We understand communication as the transmission of information which can be found in various areas of **machine learning** and **natural language processing**:
+  - *Machine-to-Human Communication*: How machines learn to communicate with humans.
+  - *Machine-to-Machine Communication*: How machines communicate with each other.
+  - *Within-machine Communication*: Analyzing communication within neural network models, including neural communication and message passing neural networks.
 
-1. Machine-to-human communication: How machines learn to communicate with humans, as in **natural language processing** and **language modeling**.
+
+
+<!-- 1. Machine-to-human communication: How machines learn to communicate with humans, as in **natural language processing** and **language modeling**.
 2. Machine-to-machine communication: How machines learn to communicate with other machines. This includes settings like **emergent communication**, where machine learning agents learn to communicate by themselves, but also **knowledge distillation**, where communication happens between teacher and student model.
 3. Message-passing neural networks, where the structure of communication is given by the data and models such as **graph neural networks** learn to effectively transmit information from one data point to the other. 
-4. Neural communication: How information flows within a neural network model, akin to **representation learning**.
+4. Neural communication: How information flows within a neural network model, akin to **representation learning**. -->
 
 ![Machine Communication Overview](/assets/images/MachComm-overview.png)
 
 
 ## Current Focus Areas
 
-By viewing those broad adjacent fields (Natural Language Processing, Multi-Agent Systems, Learning from Graphs, Representation Learning) through the lens of machine communication, we can discover valuable new links. Specifically, our (current) focus areas are:
+By viewing adjacent fields Natural Language Processing, Multi-Agent Systems, Learning from Graphs, Representation Learning through the lens of machine communication, we can discover valuable new links. Specifically, our (current) focus areas are:
 
 1. The causal effects of internal communication on external communication, similar to the young research field of **mechanistic interpretability**.
 2. Continual adaptation in the non-stationary environment of communication, using techniques of **lifelong machine learning**
