@@ -11,7 +11,7 @@ permalink: /research/
   - **Machine-to-Human Communication**: How machines learn to communicate with humans.
   - **Machine-to-Machine Communication**: How machines communicate with each other.
   - **Neural Communication**: Understanding communication within neural network models.
-  - **Message-Passing Neural Networks**: Analyzing communication within neural network models, including neural communication and message passing neural networks.
+  - **Message-Passing Neural Networks**: How machines learn to transmit information in a pre-defined graph structure. 
 
 
 
