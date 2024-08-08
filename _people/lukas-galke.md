@@ -10,4 +10,6 @@ Between 2022 and 2024, I have been working as a postdoctoral researcher at the
 Max Planck Institute for Psycholinguistics, where I explored the very emergence
 of communication protocols between neural network agents. I defended my PhD on
 representation learning for texts and graphs in 2022 at Kiel University. I
-received my MSc degree in Computer Science at the same institution in 2017.
+received my MSc degree in computer science from the same institution in 2017.
+
+[Learn more about me on my personal academic website](https://lgalke.github.io)
