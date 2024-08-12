@@ -6,7 +6,7 @@ permalink: /people/
 
 {% for member in site.people %}
   <div style="max-width: 256px">
-  <img src="{{ member.image }}" alt="{{ member.name }}" style="border-radius: 50%; width: 256px; height: 256px; object-fit: cover;"/>
+  <img src="{{ member.image }}" alt="{{ member.name }}" style="width: 256px; height: 256px; object-fit: cover;"/>
   {% if member.photocredit and member.photocredit != "" %}
   <div style="text-align: center; font-weight: 200; "><small><i>
   {% if member.photocredit_url and member.photocredit_url != "" %}
