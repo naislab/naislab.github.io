@@ -1,7 +1,9 @@
 ---
 name: Lukas Galke
 position: Head of the Group
-image: /assets/images/2024-03-LGalke-sq-sw-medium-full.jpeg
+image: /assets/images/2024-08-LGalke-sw-sq-max-full-smiling.jpeg
+photocredit: "paulgeorggalke"
+photocredit_url: https://www.instagram.com/paulgeorggalke/
 ---
 
 Starting in Sept 2024, I will be an assistant professor for data science
