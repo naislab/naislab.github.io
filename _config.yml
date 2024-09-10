@@ -17,19 +17,22 @@
 remote_theme: lgalke/swiss
 
 # title: "Mach. Learn. Commun. Lab."
-title: "Mach. Comm. Lab."
+title: "MLxC Lab"
+tagline: "Decoding the Language of Machines" # Used by seo tag
 description: >
-  Decoding the Language of Machines.
+  In the Machine Learning X Communication (MLxC) Lab at the University of Southern Denmark, we explore various topics in machine learning
+  related to the theme of machine communication, such as language modeling, message-passing neural networks, neural
+  communication, and communication in multi-agent systems.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://machcomm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mlxclab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: "" # the GitHub repo name for your project
-github_username: MachComm
+github_username: mlxclab
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
-social_username: MachCommLab
+social_username: mlxclab
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
@@ -39,7 +42,6 @@ theme_color: black
 markdown: kramdown
 
 # Metadata for jekyll seo tag
-tagline: "Decoding the Language of Machines" # Used by seo tag
 author:
   name: "Lukas Galke"
   url: "https://lgalke.github.io"
@@ -53,6 +55,6 @@ plugins:
 # Collections
 
 collections:
-  people:
+  team:
     order:
       - lukas-galke.md

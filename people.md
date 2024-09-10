@@ -1,10 +1,10 @@
 ---
 layout: page
-title: People
-permalink: /people/
+title: Team
+permalink: /team/
 ---
 
-{% for member in site.people %}
+{% for member in site.team %}
   <div style="max-width: 256px">
   <img src="{{ member.image }}" alt="{{ member.name }}" style="width: 256px; height: 256px; object-fit: cover;"/>
   {% if member.photocredit and member.photocredit != "" %}

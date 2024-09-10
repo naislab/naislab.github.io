@@ -8,17 +8,11 @@ permalink: /research/
   investigates selected topics in **Data Science** and **Advanced Machine Learning**
   with a focus on machine communication. Our research covers four main areas:
 
-  - **Machine-to-Human Communication**: How machines learn to communicate with humans.
-  - **Machine-to-Machine Communication**: How machines communicate with each other.
-  - **Neural Communication**: Understanding communication within neural network models.
-  - **Message-Passing Neural Networks**: How machines learn to transmit information in a pre-defined graph structure. 
+  - **Machine-to-Human Communication**: Machines learning to communicate with humans
+  - **Machine-to-Machine Communication**: Machines learning to communicate with each other
+  - **Neural Communication**: Transmission of information within neural network
+  - **Message-Passing Neural Networks**: Transmission of information in a given graph 
 
-
-
-<!-- 1. Machine-to-human communication: How machines learn to communicate with humans, as in **natural language processing** and **language modeling**.
-2. Machine-to-machine communication: How machines learn to communicate with other machines. This includes settings like **emergent communication**, where machine learning agents learn to communicate by themselves, but also **knowledge distillation**, where communication happens between teacher and student model.
-3. Message-passing neural networks, where the structure of communication is given by the data and models such as **graph neural networks** learn to effectively transmit information from one data point to the other. 
-4. Neural communication: How information flows within a neural network model, akin to **representation learning**. -->
 
 {% include figure.html path="/assets/images/MachComm-overview.png" caption="Overview of Machine Communication" alt="The image shows four areas." %}
 
