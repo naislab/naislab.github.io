@@ -4,15 +4,13 @@ title: Research
 permalink: /research/
 ---
 
-**The Machine Communication Lab** at the University of Southern Denmark in Odense
-  investigates selected topics in **Data Science** and **Advanced Machine Learning**
-  with a focus on machine communication. Our research covers four main areas:
+**The Machine Learning x Communication Lab** at the University of Southern Denmark in Odense
+  investigates selected topics in **Data Science** and **Advanced Machine Learning** with a focus on *machine communication*. Our research covers four main areas:
 
   - **Machine-to-Human Communication**: Machines learning to communicate with humans
   - **Machine-to-Machine Communication**: Machines learning to communicate with each other
-  - **Neural Communication**: Transmission of information within neural network
-  - **Message-Passing Neural Networks**: Transmission of information in a given graph 
-
+  - **Neural Communication**: Transmission of information *within* neural networks
+  - **Message-Passing Neural Networks**: Transmission of information through a given graph 
 
 {% include figure.html path="/assets/images/MachComm-overview.png" caption="Overview of Machine Communication" alt="The image shows four areas." %}
 
