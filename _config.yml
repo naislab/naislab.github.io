@@ -42,6 +42,10 @@ theme_color: black
 # Build settings
 markdown: kramdown
 
+# Exclude files from processing
+exclude:
+  - CLAUDE.md
+
 # Metadata for jekyll seo tag
 author:
   name: "Lukas Galke Poech"

@@ -38,16 +38,6 @@ Understanding how AI systems work internally is foundational to safety. We devel
     data_url=""
 %}
 
-{% include publication.html
-    title="What makes a language easy to deep-learn?"
-    authors="Lukas Galke, Yoav Ram, and Limor Raviv"
-    venue=""
-    year="2023"
-    paper_url="https://arxiv.org/abs/2302.12239"
-    data_url=""
-    code_url=""
-%}
-
 ### Control & Containment
 
 Interpretability insights enable better control mechanisms. We work on:
