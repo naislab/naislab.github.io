@@ -124,20 +124,23 @@ Rigorous evaluation is critical for assessing AI safety properties. We develop:
 
 ### Sustainability & Resource Impact
 
-AI safety extends beyond technical robustness to encompass environmental and societal sustainability. We investigate:
-
-- Measuring and reducing the carbon footprint of AI systems
-- Transparency in AI supply chains and resource dependencies
-- Frameworks for responsible innovation that balance capabilities with sustainability
-- Trade-offs between model performance, safety, and environmental impact
-
-**Publications:**
+AI safety extends beyond technical robustness to encompass environmental and societal sustainability.
 
 {% include publication.html
     title="Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?"
     authors="Jacob Nielsen, Peter Schneider-Kamp, and Lukas Galke"
     venue="ACL 2025 Findings"
     year="2025"
-    paper_url=""
+    abstract="Large language models (LLMs) require immense resources for training and inference. Quantization, a technique that reduces the precision of model parameters, offers a promising solution for improving LLM efficiency and sustainability. While post-training quantization methods typically achieve 4-8 bits per parameter, recent research suggests that training LLMs with 1.58 bits per weight parameter from scratch can maintain model accuracy while greatly reducing memory requirements and energy consumption at inference time. Here, we investigate a training strategy for quantization-aware pre-training, where the models are first trained with 16-bit precision and then transition into 1.58-bit quantization-aware training. Our results on 11 downstream tasks, show that this 16-to-1.58-bit training strategy is preferable over full 1.58-bit training and leaves models closer to those which have undergone 16-bit training. We further investigate the effects of retaining the optimizer state at the transition point and gradually phasing in quantization strength - finding that both techniques alleviate the magnitude of loss spikes, but also that these effects can be compensated through further training."
+    paper_url="https://aclanthology.org/2025.findings-acl.694/"
+%}
+
+{% include publication.html
+    title="When are 1.58 bits enough? A Bottom-up Exploration of Quantization-aware Training with Ternary Weights"
+    authors="Jacob Nielsen, Lukas Galke, and Peter Schneider-Kamp"
+    venue="17th International Conference on Agents and Artificial Intelligence (ICAART 2025)"
+    year="2025"
+    abstract="Contemporary machine learning models, such as language models, are powerful, but come with immense resource requirements both at training and inference time. It has been shown that decoder-only language models can be trained to a competitive state with ternary weights (1.58 bits per weight), facilitating efficient inference. Here, we start our exploration with non-transformer model architectures, investigating 1.58-bit training for multi-layer perceptrons and graph neural networks. Then, we explore 1.58-bit training in other transformer-based language models, namely encoder-only and encoder-decoder models. Our results show that in all of these settings, 1.58-bit training is on par with or sometimes even better than the standard 32/16-bit models."
+    authorcopy_url="https://arxiv.org/abs/2411.05882"
 %}
 
