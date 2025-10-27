@@ -39,15 +39,6 @@ Understanding how AI systems work internally is foundational to safety. We devel
 %}
 
 {% include publication.html
-    title="Isotropy Matters: Soft-ZCA Whitening of Embeddings for Semantic Code Search"
-    authors="Andor Diera, Lukas Galke, Ansgar Scherp"
-    venue="ESANN 2025"
-    year="2025"
-    authorcopy_url="https://arxiv.org/abs/2411.17538"
-    code_url="https://github.com/drndr/code_isotropy"
-%}
-
-{% include publication.html
     title="Learning and communication pressures in neural networks: Lessons from emergent communication"
     authors="Lukas Galke, Limor Raviv"
     venue="Language Development Research 5(1)"
