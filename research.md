@@ -32,8 +32,9 @@ Understanding how AI systems work internally is foundational to safety. We devel
 {% include publication.html
     title="Tokenization and Morphology in Multilingual Language Models: A Comparative Analysis of mT5 and ByT5"
     authors="Thao Anh Dang, Limor Raviv, Lukas Galke"
-    venue="Proceedings of the 8th International Conference on Natural Language and Speech Processing (ICNLSP-2025)"
+    venue="ICNLSP"
     year="2025"
+    abstract="Morphology is a crucial factor for multilingual language modeling as it poses direct challenges for tokenization. Here, we seek to understand how tokenization influences the morphological knowledge encoded in multilingual language models. Specifically, we capture the impact of tokenization by contrasting a minimal pair of multilingual language models: mT5 and ByT5. The two models share the same architecture, training objective, and training data and only differ in their tokenization strategies: subword tokenization vs. character-level tokenization. Probing the morphological knowledge encoded in these models on four tasks and 17 languages, our analyses show that the models learn the morphological systems of some languages better than others and that morphological information is encoded in the middle and late layers. Finally, we show that languages with more irregularities benefit more from having a higher share of the pre-training data."
     paper_url="https://aclanthology.org/2025.icnlsp-1.24/"
 %}
 
@@ -45,7 +46,6 @@ Understanding how AI systems work internally is foundational to safety. We devel
     authorcopy_url="https://arxiv.org/abs/2411.17538"
     code_url="https://github.com/drndr/code_isotropy"
 %}
-
 
 {% include publication.html
     title="Learning and communication pressures in neural networks: Lessons from emergent communication"
@@ -176,7 +176,7 @@ AI safety extends beyond technical robustness to encompass environmental and soc
 {% include publication.html
     title="When are 1.58 bits enough? A Bottom-up Exploration of Quantization-aware Training with Ternary Weights"
     authors="Jacob Nielsen, Lukas Galke, and Peter Schneider-Kamp"
-    venue="17th International Conference on Agents and Artificial Intelligence (ICAART 2025)"
+    venue="ICAART"
     year="2025"
     abstract="Contemporary machine learning models, such as language models, are powerful, but come with immense resource requirements both at training and inference time. It has been shown that decoder-only language models can be trained to a competitive state with ternary weights (1.58 bits per weight), facilitating efficient inference. Here, we start our exploration with non-transformer model architectures, investigating 1.58-bit training for multi-layer perceptrons and graph neural networks. Then, we explore 1.58-bit training in other transformer-based language models, namely encoder-only and encoder-decoder models. Our results show that in all of these settings, 1.58-bit training is on par with or sometimes even better than the standard 32/16-bit models."
     authorcopy_url="https://arxiv.org/abs/2411.05882"
