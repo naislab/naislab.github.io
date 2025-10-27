@@ -38,6 +38,22 @@ Understanding how AI systems work internally is foundational to safety. We devel
     data_url=""
 %}
 
+{% include publication.html
+    title="Tokenization and Morphology in Multilingual Language Models: A Comparative Analysis of mT5 and ByT5"
+    authors="Thao Anh Dang, Limor Raviv, Lukas Galke"
+    venue="Proceedings of the 8th International Conference on Natural Language and Speech Processing (ICNLSP-2025)"
+    year="2025"
+    paper_url="https://aclanthology.org/2025.icnlsp-1.24/"
+%}
+
+{% include publication.html
+    title="Isolating Culture Neurons in Multilingual Large Language Models"
+    authors="Danial Namazifard, Lukas Galke"
+    venue="IJCNLP-AACL 2025"
+    year="2025"
+    authorcopy_url="https://arxiv.org/abs/2508.02241"
+%}
+
 ### Control & Containment
 
 Interpretability insights enable better control mechanisms. We work on:
@@ -61,6 +77,17 @@ AI agents introduce unique safety challenges, especially when multiple agents in
 - Safety in emergent communication and coordination between AI agents
 - Robustness and alignment in agentic systems
 - Monitoring and control of goal-directed AI behavior
+
+**Publications:**
+
+{% include publication.html
+    title="Super-additive Cooperation in Language Model Agents"
+    authors="Filippo Tonini, Lukas Galke"
+    venue="3rd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications"
+    year="2025"
+    authorcopy_url="https://arxiv.org/abs/2508.15510"
+    project_url="https://github.com/pippot/Superadditive-cooperation-LLMs"
+%}
 
 ### Safety Evaluation
 
