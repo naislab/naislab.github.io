@@ -22,8 +22,8 @@ tagline: "Interpretability-informed control for AI safety" # Used by seo tag
 description: >
   The Nordic AI Safety Lab at the University of Southern Denmark develops methods to understand and control AI systems.
   We believe that interpretability—understanding the internal mechanisms of AI—is essential for achieving meaningful control
-  and ensuring safety. Our research focuses on agentic & multi-agent safety,
-  control & containment, interpretability & transparency, and safety evaluation.
+  and ensuring safety. Our research focuses on areas such as interpretability & transparency, agentic & multi-agent safety,
+  and control & containment.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://naislab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
