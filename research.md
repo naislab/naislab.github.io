@@ -20,22 +20,13 @@ Understanding how AI systems work internally is foundational to safety. We devel
 **Publications:**
 
 {% include publication.html
-    title="Learning and communication pressures in neural networks: Lessons from emergent communication"
-    authors="Lukas Galke, Limor Raviv"
-    venue="Language Development Research 5(1)"
+    title="Isolating Culture Neurons in Multilingual Large Language Models"
+    authors="Danial Namazifard, Lukas Galke"
+    venue="IJCNLP-AACL 2025"
+    abstract="Language and culture are deeply intertwined, yet it is so far unclear how and where multilingual large language models encode culture. Here, we extend upon an established methodology for identifying language-specific neurons and extend it to localize and isolate culture-specific neurons, carefully disentangling their overlap and interaction with language-specific neurons. To facilitate our experiments, we introduce MUREL, a curated dataset of 85.2 million tokens spanning six different cultures. Our localization and intervention experiments show that LLMs encode different cultures in distinct neuron populations, predominantly in upper layers, and that these culture neurons can be modulated independently from language-specific neurons or those specific to other cultures. These findings suggest that cultural knowledge and propensities in multilingual language models can be selectively isolated and edited - promoting fairness, inclusivity, and alignment."
+    code_url="https://github.com/namazifard/Culture_Neurons"
     year="2025"
-    paper_url=""
-    authorcopy_url=""
-%}
-
-{% include publication.html
-    title="Deep neural networks and humans both benefit from compositional language structure"
-    authors="Lukas Galke, Yoav Ram, Limor Raviv"
-    venue="Nature Communications 15:10816"
-    year="2024"
-    paper_url=""
-    code_url=""
-    data_url=""
+    authorcopy_url="https://arxiv.org/abs/2508.02241"
 %}
 
 {% include publication.html
@@ -47,20 +38,32 @@ Understanding how AI systems work internally is foundational to safety. We devel
 %}
 
 {% include publication.html
-    title="Isolating Culture Neurons in Multilingual Large Language Models"
-    authors="Danial Namazifard, Lukas Galke"
-    venue="IJCNLP-AACL 2025"
-    year="2025"
-    authorcopy_url="https://arxiv.org/abs/2508.02241"
-%}
-
-{% include publication.html
     title="Isotropy Matters: Soft-ZCA Whitening of Embeddings for Semantic Code Search"
     authors="Andor Diera, Lukas Galke, Ansgar Scherp"
     venue="ESANN 2025"
     year="2025"
     authorcopy_url="https://arxiv.org/abs/2411.17538"
     code_url="https://github.com/drndr/code_isotropy"
+%}
+
+
+{% include publication.html
+    title="Learning and communication pressures in neural networks: Lessons from emergent communication"
+    authors="Lukas Galke, Limor Raviv"
+    venue="Language Development Research 5(1)"
+    year="2025"
+    paper_url="https://doi.org/10.34842/3vr5-5r49"
+    authorcopy_url="https://arxiv.org/abs/2403.14427"
+%}
+
+{% include publication.html
+    title="Deep neural networks and humans both benefit from compositional language structure"
+    authors="Lukas Galke, Yoav Ram, Limor Raviv"
+    venue="Nature Communications 15:10816"
+    year="2024"
+    paper_url="https://rdcu.be/d5f2e"
+    code_url="https://github.com/lgalke/easy2deeplearn"
+    data_url="https://doi.org/10.5281/zenodo.14205452"
 %}
 
 {% include publication.html
@@ -85,7 +88,9 @@ Interpretability insights enable better control mechanisms. We develop guardrail
     authors="Richard Šléher, William Brach, Tibor Sloboda, Kristián Košťál, and Lukas Galke"
     venue="European Conference on Artificial Intelligence"
     year="2025"
-    authorcopy_url=""
+    authorcopy_url="https://arxiv.org/abs/2505.14524"
+    project_url="https://gqr-bench.github.io"
+    code_url="https://github.com/williambrach/gqr"
 %}
 
 ### Agentic & Multi-Agent Safety
@@ -120,7 +125,9 @@ Rigorous evaluation is critical for assessing AI safety properties. We develop b
     authors="Richard Šléher, William Brach, Tibor Sloboda, Kristián Košťál, and Lukas Galke"
     venue="European Conference on Artificial Intelligence"
     year="2025"
-    authorcopy_url=""
+    authorcopy_url="https://arxiv.org/abs/2505.14524"
+    project_url="https://gqr-bench.github.io"
+    code_url="https://github.com/williambrach/gqr"
 %}
 
 ### Uncertainty & Risk Quantification
