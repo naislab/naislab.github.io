@@ -1,5 +1,5 @@
 ---
-name: Lukas Galke
+name: Lukas Galke Poech
 position: Head of the Group
 image: /assets/images/2024-08-LGalke-sw-sq-max-full-smiling.jpeg
 photocredit: "paulgeorggalke"

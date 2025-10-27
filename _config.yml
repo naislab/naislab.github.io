@@ -17,22 +17,23 @@
 remote_theme: lgalke/swiss
 
 # title: "Mach. Learn. Commun. Lab."
-title: "MLxC Lab"
-tagline: "Decoding the Language of Machines" # Used by seo tag
+title: "NAIS Lab"
+tagline: "Interpretability-informed control for AI safety" # Used by seo tag
 description: >
-  In the Machine Learning X Communication (MLxC) Lab at the University of Southern Denmark, we explore various topics in machine learning
-  related to the theme of machine communication, such as language modeling, message-passing neural networks, neural
-  communication, and communication in multi-agent systems.
+  The Nordic AI Safety Lab at the University of Southern Denmark develops methods to understand and control AI systems.
+  We believe that interpretability—understanding the internal mechanisms of AI—is essential for achieving meaningful control
+  and ensuring safety. Our research focuses on agentic & multi-agent safety,
+  control & containment, interpretability & transparency, and safety evaluation.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mlxclab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://naislab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: "" # the GitHub repo name for your project
-github_username: mlxclab
+github_username: naislab
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
-social_username: mlxclab
+social_username: naislab
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
@@ -43,7 +44,7 @@ markdown: kramdown
 
 # Metadata for jekyll seo tag
 author:
-  name: "Lukas Galke"
+  name: "Lukas Galke Poech"
   url: "https://lgalke.github.io"
   twitter: "LukasGalke"
 
