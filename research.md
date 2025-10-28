@@ -60,8 +60,7 @@ Understanding how AI systems work internally is foundational to safety. We devel
 {% include publication.html
     title="Morphology Matters: Probing the Cross-linguistic Morphological Generalization Abilities of Large Language Models through a Wug Test"
     authors="Anh Dang, Limor Raviv, Lukas Galke"
-    venue="Cognitive Modeling and Computational Linguistics Workshop at ACL"
-    year="2024"
+    venue="Cognitive Modeling and Computational Linguistics Workshop at ACL 2024"
     paper_url="https://aclanthology.org/2024.cmcl-1.15/"
 %}
 
@@ -77,7 +76,7 @@ Interpretability insights enable better control mechanisms. We develop guardrail
 {% include publication.html
     title="Guarded Query Routing for Large Language Models"
     authors="Richard Šléher, William Brach, Tibor Sloboda, Kristián Košťál, and Lukas Galke"
-    venue="European Conference on Artificial Intelligence"
+    venue="ECAI"
     year="2025"
     authorcopy_url="https://arxiv.org/abs/2505.14524"
     project_url="https://gqr-bench.github.io"
@@ -96,7 +95,7 @@ AI agents introduce unique safety challenges, especially when multiple agents in
 {% include publication.html
     title="Super-additive Cooperation in Language Model Agents"
     authors="Filippo Tonini, Lukas Galke"
-    venue="3rd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications"
+    venue="3rd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications (FAIEMA)"
     year="2025"
     authorcopy_url="https://arxiv.org/abs/2508.15510"
     project_url="https://github.com/pippot/Superadditive-cooperation-LLMs"
@@ -114,7 +113,7 @@ Rigorous evaluation is critical for assessing AI safety properties. We develop b
 {% include publication.html
     title="Guarded Query Routing for Large Language Models"
     authors="Richard Šléher, William Brach, Tibor Sloboda, Kristián Košťál, and Lukas Galke"
-    venue="European Conference on Artificial Intelligence"
+    venue="ECAI"
     year="2025"
     authorcopy_url="https://arxiv.org/abs/2505.14524"
     project_url="https://gqr-bench.github.io"
@@ -133,7 +132,7 @@ Quantifying and managing uncertainty is essential for safe AI deployment. We dev
 {% include publication.html
     title="POWN: Prototypical Open-world Node Classification"
     authors="Marcel Hoffmann, Lukas Galke, Ansgar Scherp"
-    venue="CoLLAs 2024"
+    venue="Conference on Lifelong Learning Agents (CoLLAs)"
     year="2024"
     paper_url="https://lifelong-ml.cc/Conferences/2024/acceptedpapersandvideos/conf-2024-38"
     code_url="https://github.com/Bobowner/POWN"
@@ -158,7 +157,7 @@ AI safety extends beyond technical robustness to encompass environmental and soc
 {% include publication.html
     title="Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?"
     authors="Jacob Nielsen, Peter Schneider-Kamp, and Lukas Galke"
-    venue="ACL 2025 Findings"
+    venue="ACL Findings"
     year="2025"
     abstract="Large language models (LLMs) require immense resources for training and inference. Quantization, a technique that reduces the precision of model parameters, offers a promising solution for improving LLM efficiency and sustainability. While post-training quantization methods typically achieve 4-8 bits per parameter, recent research suggests that training LLMs with 1.58 bits per weight parameter from scratch can maintain model accuracy while greatly reducing memory requirements and energy consumption at inference time. Here, we investigate a training strategy for quantization-aware pre-training, where the models are first trained with 16-bit precision and then transition into 1.58-bit quantization-aware training. Our results on 11 downstream tasks, show that this 16-to-1.58-bit training strategy is preferable over full 1.58-bit training and leaves models closer to those which have undergone 16-bit training. We further investigate the effects of retaining the optimizer state at the transition point and gradually phasing in quantization strength - finding that both techniques alleviate the magnitude of loss spikes, but also that these effects can be compensated through further training."
     paper_url="https://aclanthology.org/2025.findings-acl.694/"
@@ -167,7 +166,7 @@ AI safety extends beyond technical robustness to encompass environmental and soc
 {% include publication.html
     title="When are 1.58 bits enough? A Bottom-up Exploration of Quantization-aware Training with Ternary Weights"
     authors="Jacob Nielsen, Lukas Galke, and Peter Schneider-Kamp"
-    venue="ICAART"
+    venue="18th International Conference on Agents and Artificial Intelligence (ICAART)"
     year="2025"
     abstract="Contemporary machine learning models, such as language models, are powerful, but come with immense resource requirements both at training and inference time. It has been shown that decoder-only language models can be trained to a competitive state with ternary weights (1.58 bits per weight), facilitating efficient inference. Here, we start our exploration with non-transformer model architectures, investigating 1.58-bit training for multi-layer perceptrons and graph neural networks. Then, we explore 1.58-bit training in other transformer-based language models, namely encoder-only and encoder-decoder models. Our results show that in all of these settings, 1.58-bit training is on par with or sometimes even better than the standard 32/16-bit models."
     authorcopy_url="https://arxiv.org/abs/2411.05882"
