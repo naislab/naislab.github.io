@@ -26,14 +26,14 @@ description: >
   and control & containment.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://naislab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nordicaisafetylab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: "" # the GitHub repo name for your project
-github_username: naislab
+github_username: nordicaisafetylab
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: naislab
+social_link: instagram
+social_username: nordicaisafetylab
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
